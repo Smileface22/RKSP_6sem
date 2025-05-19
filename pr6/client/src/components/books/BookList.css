@@ -1,0 +1,53 @@
+.book-list {
+    display: grid; /* Используем Grid для сетки */
+    grid-template-columns: repeat(3, 1fr); /* Три колонки */
+    gap: 20px; /* Расстояние между карточками */
+    padding: 20px;
+    max-width: 1200px; /* Ограничиваем максимальную ширину */
+    margin: 0 auto; /* Центрируем сетку по горизонтали */
+}
+
+.book-cards {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.book-cards img {
+    width: 100%;
+    border-radius: 8px;
+    height: 200px; 
+    object-fit: contain;
+    display: block;
+}
+
+.book-cards h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.book-cards p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+.book-list a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: inherit; /* Сохраняем цвет текста при переходе */
+}
+
+.book-cards a:hover {
+    color: #ff6600; /* Оранжевый цвет на карточке при наведении */
+}
+
+.book-cards:hover {
+    transform: translateY(-5px); /* Легкий подъем карточки при наведении */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Увеличение тени при наведении */
+}

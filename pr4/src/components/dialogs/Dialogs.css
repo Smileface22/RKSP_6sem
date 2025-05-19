@@ -1,0 +1,38 @@
+/* Dialogs.css */
+.dialogs-container {
+    padding: 20px;
+  }
+  
+  .dialogs-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dialog-item {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dialog-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dialog-item a:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .dialog-item a:focus {
+    outline: none;
+  }
+  
+  

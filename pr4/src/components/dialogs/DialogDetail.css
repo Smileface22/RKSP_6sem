@@ -1,0 +1,41 @@
+/* DialogDetail.css */
+.dialog-detail-container {
+    padding: 20px;
+  }
+  
+  .dialog-detail-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .dialog-detail-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dialog-detail-container li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dialog-detail-container a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ff6600;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dialog-detail-container a:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  

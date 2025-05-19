@@ -1,0 +1,61 @@
+.book-card {
+    display: flex;
+    flex-direction: row; /* Размещение элементов в строку */
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%; /* Ширина карточки */
+    max-width: 900px; /* Максимальная ширина */
+}
+
+.book-card img {
+    width: 350px; /* Фиксированная ширина изображения */
+    object-fit: contain; /* Сохранение пропорций изображения */
+    border-radius: 8px;
+    margin-right: 20px; /* Отступ между картинкой и текстом */
+}
+
+.book-card .info {
+    flex: 1; /* Все доступное пространство справа от изображения */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-card h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.book-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.book-card p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.book-card a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.book-card a:hover {
+    background-color: #e65c00;
+}

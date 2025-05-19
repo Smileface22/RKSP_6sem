@@ -1,0 +1,51 @@
+.agreement-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .agreement-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .agreement-container p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .agreement-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+  }
+  
+  .agreement-checkbox input {
+    margin-right: 8px;
+  }
+  
+  .agreement-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .agreement-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .agreement-button:hover:not(:disabled) {
+    background-color: #45a049;
+  }
+  
